@@ -1,0 +1,17 @@
+<% @items.each do |item| %>
+<div class="container">
+	<p>All avaibles items</p>
+	<ul class="list-group">
+		<li class="list-group-item">
+			<%= item.name %>
+		</li>
+		<li class="list-group-item">
+			<%= item.price %>
+		</li>
+		<li class="list-group-item">
+			<%= item.description %>
+		</li>
+	</ul> 
+	</br>
+</div>
+<% end %>
