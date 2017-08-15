@@ -1,0 +1,11 @@
+<p>Categories</p>
+<% @categories.each do |category| %>
+<div class="container">
+	<ul class="list-group">
+		<li class="list-group-item">
+			<%= category.name %>
+		</li>
+	</ul> 
+	</br>
+</div>
+<% end %>

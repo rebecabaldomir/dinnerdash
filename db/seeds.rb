@@ -9,3 +9,7 @@ Item.create!(name: 'Gorgonzola Bacon Burger', price: 33, description: 'Hambúrge
 Item.create!(name: 'Hamburger', price: 23, description: 'Hamburger Black Angus (180g), aioli e brioche.')
 Item.create!(name: 'Parrilla Burger', price: 32, description: 'Hamburger, queijo minas meia cura, cebola caramelizaada e aioli.')
 
+Category.create!(name: 'Hambúrger')
+Category.create!(name: 'Sobremesa')
+Category.create!(name: 'Entradas')
+Category.create!(name: 'Bebidas')
